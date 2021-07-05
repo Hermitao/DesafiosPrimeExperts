@@ -16,18 +16,15 @@ ${PRODUTO}      ItemNãoExistente
 *** Test Case ***  
 Cenário: automatizar teste no Automation Practice
     [Tags]      TESTAR
-    Abrir navegador
     Acessar Automation Practice
     Digitar pesquisa
     Clicar no botão pesquisar
     Conferir se o produto "${PRODUTO}" foi listado
-    Fechar navegador
 
 
 *** Keywords ***
 Abrir navegador
     Open Browser    browser=${BROWSER}
-    #Maximize Browser Window
 
 Fechar navegador
     Close Browser
